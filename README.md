@@ -1,26 +1,18 @@
-# Episode 8: Implementing custom actions with backend integrations, forms and fallback
+# Medical Locator - code in the Rasa Master Class
 
----
-## What's in this episode?
-
-In this episode we:
-- updated the NLU data of our assistant by adding more training examples, implementing regex features and synonyms
-- updated the custom action with real world backend integrations
-- implemented form action
-- added TwoStageFallbackPolicy
-
-## How do I use this directory?
+## How do I use this repo?
 Train the assistant using the command:  
 `rasa train`
 
 Test the assistant using the command:  
-`rasa run actions & rasa shell`
+`rasa x`
 
-## What do you need to follow this episode?
+## Expected Result
+Once you get your model trained, you can use `rasa x` interactive learning feature to make sure it works. Here is a screenshot which can be used as an example
+![screenshot](./screenshots/screenshot-0.png)
 
-This episode requires you to have Rasa installed on your machine:  
+## What do you need to get this up & running
+
+If you have not, you should have Rasa & Rasa X installed on your machine:  
 ```pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple```
 
-In addition to this you need to install additional dependency to run Rasa on Jupyter 
-notebooks:  
-```pip install nest_asyncio```
