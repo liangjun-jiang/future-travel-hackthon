@@ -35,9 +35,9 @@ slots:
   facility_id:
     type: unfeaturized
   facility_type:
-    type: text
+    type: unfeaturized
   location:
-    type: text
+    type: unfeaturized
 responses:
   utter_greet:
   - text: Hi. What are you looking for?
