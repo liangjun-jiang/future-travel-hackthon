@@ -12,6 +12,19 @@ intents:
 - search_provider
 - thanks
 - out_of_scope
+- ask_howdoing
+- ask_howold
+- telljoke
+- ask_weather
+- ask_builder
+- ask_wherefrom
+- ask_time
+- ask_whatismyname
+- ask_restaurant
+- ask_languagesbot
+- thankyou
+- ask_whoami
+- handleinsult
 entities:
 - facility_type
 - facility_id
